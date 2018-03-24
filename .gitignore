@@ -1,0 +1,8 @@
+*
+!*.yaml
+!.gitignore
+!sensors/
+!sensors/*.yaml
+secrets.yaml
+known_devices.yaml
+

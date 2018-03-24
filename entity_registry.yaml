@@ -1,0 +1,32 @@
+media_player.living_room:
+  name:
+  platform: cast
+  unique_id: 726d4123-1ec6-830b-a3e4-c41c091b6e20
+media_player.allison_chromecast:
+  name:
+  platform: cast
+  unique_id: 5059cc80-fdd5-9519-82f5-f37cc5997bac
+media_player.master_bath:
+  name:
+  platform: cast
+  unique_id: d705fba1-6ce1-57e3-4ab9-4125540a466f
+media_player.whole_house:
+  name:
+  platform: cast
+  unique_id: 000cb052-9d93-4f25-8d57-878bf5bca931
+sensor.rons_iphone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_rons_iphone
+sensor.lisa_allison_nsd_battery_state:
+  name:
+  platform: ios
+  unique_id: state_lisa_allison_nsd
+sensor.rons_iphone_battery_state:
+  name:
+  platform: ios
+  unique_id: state_rons_iphone
+sensor.lisa_allison_nsd_battery_level:
+  name:
+  platform: ios
+  unique_id: level_lisa_allison_nsd

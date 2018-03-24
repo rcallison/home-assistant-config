@@ -1,0 +1,76 @@
+  themes:
+   teal:
+      # Main Stuff #
+      primary-color: "#1DE9B6" # Primary (most of the UI)
+      primary-background-color: "#303030" # Primary background colour (dialogs, e.t.c)
+      secondary-background-color: "#303030" # Secondary background colour (main UI background)
+      paper-card-background-color: "#424242" # Card background colour
+      paper-item-icon-color: "#1DE9B6" # Icon colour
+      primary-text-color: "#FFFFFF" # Primary text colour
+      secondary-text-color: "rgba(255, 255, 255, 0.7)" # Secondary text colour
+      disabled-text-color: "rgba(255, 255, 255, 0.5)" # Disabled text colour
+      divider-color: "rgba(255, 255, 255, 0.12)" # Divider colour
+      paper-card-header-color: "#FFFFFF" # Card header text colour
+
+      # Nav Menu #
+      paper-listbox-background-color: "#424242" # Listbox background colour
+      paper-listbox-color: "#FFFFFF" # Listbox text colour
+      paper-grey-200: "#616161" # Listbox selected item background colour
+
+      # Switches #
+      paper-toggle-button-checked-ink-color: "#1DE9B6"
+      paper-toggle-button-checked-button-color: "#1DE9B6"
+      paper-toggle-button-checked-bar-color: "#1DE9B6"
+
+      # Sliders #
+      paper-slider-knob-color: "#1DE9B6"
+      paper-slider-knob-start-color: "#1DE9B6"
+      paper-slider-pin-color: "#1DE9B6"
+      paper-slider-active-color: "#1DE9B6"
+      paper-slider-secondary-color: "#33F2D8"
+
+   solarized:
+      primary-color: "#2aa198"
+      disabled-text-color: "#859900"
+      divider-color: "#586e75" #"rgba(255, 255, 255, 0.12)"
+      paper-card-background-color: "#002b36"
+      paper-grey-200: "#586e75"
+      paper-item-icon-color: "#b58900"
+      paper-listbox-background-color: "#002b36"
+      paper-listbox-color: "#b58900"
+      primary-background-color: "#073642"
+      primary-text-color: "#839496"
+      secondary-background-color: "#073642"
+      secondary-text-color: "#859900"
+      text-primary-color: "#839496"
+      label-badge-background-color: "var(--secondary-background-color)"
+      label-badge-text-color: "var(--text-primary-color)"
+      paper-card-header-color: "#cb4b16"
+      paper-grey-50: "#b58900"
+      paper-item-icon-active-color: "#dc322f"
+      paper-item-icon_-_color: "#FF00FF"   # no clue 
+      paper-slider-active-color: "#dc322f"
+      paper-slider-knob-color: "#dc322f"
+      paper-slider-knob-start-color: "#b58900"
+      paper-slider-pin-color: "#FF00FF"  # no clue
+      paper-slider-secondary-color: "#dc322f"
+      paper-toggle-button-checked-ink-color: "#dc322f"
+      paper-toggle-button-checked-button-color: "#dc322f"
+      paper-toggle-button-checked-bar-color: "#cb4b16"
+      paper-toggle-button-unchecked-bar-color: "#b58900"
+      table-row-background-color: "#002b36"
+      table-row-alternative-background-color: "#073642"
+      google-red: "#dc322f"
+      google-green: "#859900"
+      google-blue: "#268bd2"
+      google-yellow: "#b58900"
+      accent-color: "#cb4b16"
+      paper-green: "#859900"
+      paper-blue: "#268bd2"
+      paper-orange: "#cb4b16"
+
+  extra_html_url:
+    - /www/custom_ui/state-card-custom-ui.html
+  extra_html_url_es5:
+    - /www/custom_ui/state-card-custom-ui-es5.html
+

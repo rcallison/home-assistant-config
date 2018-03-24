@@ -1,0 +1,216 @@
+  - platform: mqtt
+    name: "Sectional"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "21811"
+    payload_off: "21820"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Piano"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "21955"
+    payload_off: "21964"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Black Hutch"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "22275"
+    payload_off: "22284"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Ficus"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "23811"
+    payload_off: "23820"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Reading Chairs"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "5264691"
+    payload_off: "5264700"
+    retain: true
+
+  - platform: mqtt
+    name: "Grand Father Clock"
+    state_topic: "home/1stfloor/hallway/grandfatherclock/sonoff/stat/POWER"
+    command_topic: "home/1stfloor/hallway/grandfatherclock/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Lisa Nightstand"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "5264835"
+    payload_off: "5264844"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Ron Nightstand"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "5265155"
+    payload_off: "5265164"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Cherry Blossom Tree"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "5266691"
+    payload_off: "5266700"
+    retain: true
+
+  - platform: mqtt
+    name: "Upstairs TV Lamp"
+    state_topic: "home/2ndfloor/tvroom/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/tvroom/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+
+  - platform: mqtt
+    name: "Upstairs Lamp"
+    state_topic: "home/commands/PLSL_190/BITS_24"
+    command_topic: "home/commands/PLSL_190/BITS_24"
+    qos: 1
+    payload_on: "5272835"
+    payload_off: "5272844"
+    retain: true
+
+  - platform: mqtt
+    name: "Ron Office Lamp"
+    state_topic: "home/2ndfloor/ronofficelamp/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/ronofficelamp/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+ 
+  - platform: mqtt
+    name: "Ron Closet Lights"
+    state_topic: "home/2ndfloor/ronofficecloset/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/ronofficecloset/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Ron Office Test"
+    state_topic: "home/2ndfloor/ronofficetest/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/ronofficetest/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+
+#  - platform: mqtt
+#    name: "Presents"
+#    state_topic: "home/christmas/presents/sonoff/stat/POWER"
+#    command_topic: "home/christmas/presents/sonoff/cmnd/POWER"
+#    qos: 1
+#    payload_on: "ON"
+#    payload_off: "OFF"
+#    retain: true
+
+#  - platform: mqtt
+#    name: "Fireplace"
+#    state_topic: "home/christmas/fireplace/sonoff/stat/POWER"
+#    command_topic: "home/christmas/fireplace/sonoff/cmnd/POWER"
+#    qos: 1
+#    payload_on: "ON"
+#    payload_off: "OFF"
+#    retain: true
+
+#  - platform: mqtt
+#    name: "Joy Sign"
+#    state_topic: "home/christmas/joysign/sonoff/stat/POWER"
+#    command_topic: "home/christmas/joysign/sonoff/cmnd/POWER"
+#    qos: 1
+#    payload_on: "ON"
+#    payload_off: "OFF"
+#    retain: true
+
+  - platform: mqtt
+    name: "Firepit Spotlight"
+    state_topic: "home/outside/firepitmotionspotlight/sonoff/stat/POWER"
+    command_topic: "home/outside/firepitmotionspotlight/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Lisa Office Lamp"
+    state_topic: "home/2ndfloor/lisaofficelamp/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/lisaofficelamp/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Guest Room Upstairs Lamp 1"
+    state_topic: "home/2ndfloor/guestroom/lamp/sonoff/stat/POWER1"
+    command_topic: "home/2ndfloor/guestroom/lamp/sonoff/cmnd/POWER1"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Guest Room Upstairs Lamp 2"
+    state_topic: "home/2ndfloor/guestroom/lamp/sonoff/stat/POWER2"
+    command_topic: "home/2ndfloor/guestroom/lamp/sonoff/cmnd/POWER2"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Lamp 1"
+    state_topic: "home/1stfloor/guestroom/lamp1/sonoff/stat/POWER"
+    command_topic: "home/1stfloor/guestroom/lamp1/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+
+  - platform: mqtt
+    name: "Lamp 2"
+    state_topic: "home/1stfloor/guestroom/lamp2/sonoff/stat/POWER"
+    command_topic: "home/1stfloor/guestroom/lamp2/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+

@@ -1,0 +1,5 @@
+  platform: mqtt
+  state_topic: "home/2ndfloor/ronoffice/sensor"
+  name: "Ron Office Temperature"
+  unit_of_measurement: "°F"
+  value_template: '{{ value_json.temperature|round(1) }}'

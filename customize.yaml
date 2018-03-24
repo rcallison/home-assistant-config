@@ -1,0 +1,44 @@
+ group.wunderground:
+   order: 8
+ group.daily_forecast:
+   order: 9
+
+ light.guest_room_upstairs_lamp_1:
+   group:
+     group.upstairs_guest_room:
+        friendly_name: Lamp 1
+
+
+ light.guest_room_upstairs_lamp_2:
+   group:
+     group.upstairs_guest_room:
+        friendly_name: Lamp 2
+
+
+ light.reading_chairs:
+   group:
+     group.reading_room:
+        friendly_name: Chairs
+
+
+ light.upstairs_lamp:
+   group:
+     group.upstairs_tv:
+        friendly_name: Lamp
+
+ light.upstairs_tv_lamp:
+   group:
+     group.upstairs_tv:
+        friendly_name: End Table Lamp
+
+ light.lisa_office_lamp:
+   group:
+     group.lisas_office:
+        friendly_name: Lamp
+
+ light.ron_closet_lights:
+   friendly_name: Closet Lights
+
+ light.ron_office_lamp:
+   friendly_name: Lamp
+

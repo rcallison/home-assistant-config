@@ -1,0 +1,12 @@
+  - platform: mqtt
+    name: "MP Delta"
+    state_topic: "home/2ndfloor/mpdelta/sonoff/stat/POWER"
+    command_topic: "home/2ndfloor/mpdelta/sonoff/cmnd/POWER"
+    qos: 1
+    payload_on: "ON"
+    payloadP_off: "OFF"
+    retain: true
+
+  - platform: tplink
+    host: !secret tplink_ip 
+    name: "Light Switch"
