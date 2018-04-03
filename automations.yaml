@@ -1,1 +1,42 @@
-[]
+- alias: 'Update notifications'
+  trigger:
+    platform: state
+    entity_id: updater.updater
+  action:
+    service: notify.pushbullet
+    data_template:
+      title: 'New Home Assistant Release'
+      message: "Home Assistant {{ states.updater.updater.state }} is now available."
+
+- alias: 'Pushover Notifications'
+  trigger:
+    platform: state
+    entity_id: updater.updater
+  action:
+    service: notify.pushover
+    data_template:
+      title: 'New Home Assistant Release'
+      message: "Home Assistant {{ states.updater.updater.state }} is now available."
+
+- alias: 'Attic Temperature'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.attic_temperature
+    below: 84
+  action:
+    service: notify.pushover
+    data_template:
+      title: "Attic Temperature"
+      message: "Attic temperature is below 84 degrees"
+
+- alias: 'Ron Office'
+  trigger:
+    platform: state
+    entity_id: light.ron_office_lamp
+  action:
+    service: notify.ios_rons_iphone
+    data:
+      message: "Ron's office light is on"
+      data:
+        push:
+          sound: "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"

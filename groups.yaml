@@ -28,6 +28,7 @@
   entities:
    - group.home_environment
    - group.octoprint
+   - group.scripts
  media_view:
   name: Media
   view: yes
@@ -147,4 +148,7 @@
    - sensor.octoprint_actual_tool0_temp
    - sensor.octoprint_current_state
    - sensor.octoprint_job_percentage
-
+ scripts:
+  name: Scripts
+  entities:
+   - script.test_pushover

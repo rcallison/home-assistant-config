@@ -137,3 +137,4 @@ binary_sensor:
 customizer:
   custom_ui: local
 
+notify: !include notify.yaml
