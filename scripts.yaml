@@ -9,3 +9,12 @@ test_pushover:
           icon: https://i.pinimg.com/originals/c1/55/a1/c155a1b393899ffd7c36ff01090ce8f5.jpg
 
 
+test_iospush:
+  alias: 'test_iospush'
+  sequence:
+    - service: notify.ios_rons_iphone
+      data:
+        title: "iOS Test Alert"
+        message: "This is a test message!"
+        data:
+          icon: https://i.pinimg.com/originals/c1/55/a1/c155a1b393899ffd7c36ff01090ce8f5.jpg

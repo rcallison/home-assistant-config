@@ -120,7 +120,7 @@ panel_iframe:
 ios:
 
 media_player:
-   - platform: pandora
+#   - platform: pandora
 
 octoprint:
   host: !secret octoprint_ip
@@ -138,3 +138,22 @@ customizer:
   custom_ui: local
 
 notify: !include notify.yaml
+
+device_tracker:
+  - platform: unifi
+    host: !secret unifi_ip
+    port: 8443
+    username: !secret unifi_user
+    password: !secret unifi_pass
+    ssid_filter:
+      - '!secret unifi_ap'
+    verify_ssl: false
+    track_new_devices: no
+
+zone:
+  - name: Home
+    latitude: !secret latitude_info
+    longitude: !secret longitude_info
+    radius: 100
+    icon: mdi:account-multiple
+

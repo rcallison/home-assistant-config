@@ -22,21 +22,21 @@
   trigger:
     platform: numeric_state
     entity_id: sensor.attic_temperature
-    below: 84
+    below: 34
   action:
     service: notify.pushover
     data_template:
       title: "Attic Temperature"
-      message: "Attic temperature is below 84 degrees"
+      message: "Attic temperature is close to freezing"
 
-- alias: 'Ron Office'
-  trigger:
-    platform: state
-    entity_id: light.ron_office_lamp
-  action:
-    service: notify.ios_rons_iphone
-    data:
-      message: "Ron's office light is on"
-      data:
-        push:
-          sound: "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"
+#- alias: 'Ron Office'
+#  trigger:
+#    platform: state
+#    entity_id: light.ron_office_lamp
+#  action:
+#    service: notify.ios_rons_iphone
+#    data:
+#      message: "Ron's office light is on"
+#      data:
+#        push:
+#          sound: "US-EN-Morgan-Freeman-Turning-On-The-Light.wav"
