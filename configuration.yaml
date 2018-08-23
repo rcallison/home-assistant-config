@@ -157,3 +157,7 @@ zone:
     radius: 100
     icon: mdi:account-multiple
 
+scene: !include scenes.yaml
+
+#influxdb:
+#   host: 192.168.3.134

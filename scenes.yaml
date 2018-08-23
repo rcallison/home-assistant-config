@@ -1,0 +1,35 @@
+ - name: Upstairs TV Room On
+   entities: 
+     light.upstairs_lamp: on
+     light.upstairs_tv_lamp: on
+
+ - name: Upstairs TV Room Off
+   entities: 
+     light.upstairs_lamp: off
+     light.upstairs_tv_lamp: off
+
+ - name: Master Bedroom On
+   entities:
+     light.lisa_nightstand: on
+     light.ron_nightstand: on
+     light.cherry_blossom_tree: on
+
+ - name: Master Bedroom Off
+   entities:
+     light.lisa_nightstand: off
+     light.ron_nightstand: off
+     light.cherry_blossom_tree: off
+
+ - name: Living Room On
+   entities:
+     light.sectional: on
+     light.piano: on
+     light.black_hutch: on
+     light.ficus: on
+
+ - name: Living Room Off
+   entities:
+     light.sectional: off
+     light.piano: off
+     light.black_hutch: off
+     light.ficus: off
